@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.azul {
+  color: rgb(43, 185, 221);
+}
+
+.grande {
+  font-size: 50px;
+}
+
+.seccion2 {
+  background-color: chocolate;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
