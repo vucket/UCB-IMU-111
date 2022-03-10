@@ -90,4 +90,51 @@ console.log(unObject);
 console.log(unObject.otroObject);
 console.log(unObject.otroObject.otroMas);
 
+/**
+ * Funciones en JS
+ */
+
+// No se ejecuta inmediatamente
+// Se ejecuta cuando se llama a la función
+
+console.log("FUNCIONES:");
+function miFuncion() {
+  console.log("Hola!");
+}
+
+miFuncion();
+
+// Las funciones pueden recibir parámetros
+
+function suma(a, b, c) {
+  console.log(a + b + c);
+}
+
+suma(2, 3, 1); //6
+suma(1, 7, 1); // 9
+suma("abc", 3, "def"); //"abc3def"
+
+// Las funciones pueden retornar datos
+console.log("FUNCIONES CON RETURN:");
+
+function obtenerSuma(a, b, c) {
+  const resultado = a + b + c;
+  return resultado;
+}
+
+const miResultado = obtenerSuma(1, 2, 3);
+console.log(miResultado);
+
+console.log(obtenerSuma(2, 3, 4));
+
+// Funciones en Objectos - Métodos
+const objetoConFuncion = {
+  prueba: function () {
+    console.log("Esto es una prueba");
+  },
+};
+
+objetoConFuncion.prueba();
+
+// console.log()
 // document.getElementById("#unId");
