@@ -1,5 +1,9 @@
 body {
   background-color: rgb(255, 255, 255);
+  width: 500px;
+  padding: 15px;
+  border: 3px solid;
+  border-color: blueviolet;
 }
 
 .azul {
@@ -9,9 +13,12 @@ body {
 .grande {
   font-size: 50px;
 }
-
 .seccion2 {
-  background-color: chocolate;
+  background-color: cornsilk;
+  color: blueviolet;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 #logo {

@@ -9,10 +9,22 @@
  */
 
 /**
+ * Variables
+ * Sintaxis antigua:
+ * var nombreDeLaVariable = "VALOR"; // String, numero, booleano, array, objeto
+ *
+ * Sintaxis actual:
+ * const camelCase = "VALOR"
+ * const nombreDeLaVariable = "VALOR"; // String, numero, booleano, array, objeto
+ * const Nombre_DE_la_VaRiaBle34 = "VALOR"; // String, numero, booleano, array, objeto
+ * let nombreDeLaVariable = "VALOR"; // String, numero, booleano, array, objeto
+ */
+
+/**
  * Tipos de datos
  */
 // String
-// En Java: String miString = 6;
+// Sintaxis en Java: String miString = "string6";
 
 // Antes se usaba var
 var miString = "abc";
@@ -20,6 +32,8 @@ console.log(miString);
 
 // Number
 // En Java: Int miInt = 6;
+// En Java: Double miDouble = 6;
+// En Java: Float miFloat = 6.42;
 
 var miNumero = 12345;
 console.log(miNumero);
@@ -27,11 +41,13 @@ console.log(miNumero);
 // Boolean
 // En Java: Bool miBool = false;
 
+// true /  false
 var miBooleano = false;
-
 console.log(miBooleano);
 
-// JS es de tipo dimánico
+/**
+ * JS es de tipo dimánico
+ */
 
 var varible = "SoyString";
 
@@ -45,8 +61,8 @@ console.log(varible);
 // const
 const miConst = "SoyConst";
 console.log(miConst);
-//miConst = "Otro String";
-// miConst = 123;
+//miConst = "Otro String";  // Error
+// miConst = 123;           // Error
 // console.log(miConst);
 
 // let -  es el nuevo var
